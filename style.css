@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/IMG-20221113-WA0005.jpg);
+    background-size: cover;
+
+}
+
+
+.manu{
+    list-style-type: none;
+    background-color: aqua;
+    height: 10vh;
+    text-align: right;
+}
+.manu ul{
+    display: inline-flex;
+    list-style: none;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+
+}
+.manu ul li{
+    padding-left: 50px;
+    margin-top: 20px;
+    
+}
+.manu ul li a{
+   margin-right: 50px;
+    text-decoration: none;
+    color: rgb(246, 44, 4);
+}
+.login{
+    width: 250px;
+    height: 350px;
+    margin-left: 1200px;
+    background-image: url(images/premium_photo-1677265741635-0f6e1e74581e.jpeg);
+    margin-top: 150px;
+    border-radius: 5px;
+    color: #fff;
+}
+h1{
+    padding-top: 15px;
+    color: rgb(244, 10, 10);
+}
+h3{
+    text-align: center;
+}
+form {
+    width: 100px;
+    padding: 20px;
+    font-family: arial;
+    font-size: bold;
+    margin-top: 10px;
+}
+form input{
+    padding: 1px 20px;
+    box-sizing: border-box;
+    border:none;
+    border-style: outset;
+}
+
+form button{
+  padding: 3px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: #2c04db;
+  color: rgba(251, 250, 253, 0.892);
+}
+form button:hover{
+   cursor: pointer;
+    color: rgb(255, 21, 0);
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 20px;
+    color: rgb(2, 44, 70);
+}
+.para-2 a{
+    text-decoration: none;
+    color: #f8f3f3;
+
+}
+.para-2 a:hover{
+    cursor: pointer;
+    color: #2c04db;
+}
+.foot{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+.middle{
+    text-align: center;
+    
+}
+.middle button {
+    padding: 10px 80px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    background-color: #2c04db;
+    color: #fff;
+    outline:none
+}
+.middle button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.middle button:hover{
+    cursor: pointer;
+    color: chocolate;
+}
